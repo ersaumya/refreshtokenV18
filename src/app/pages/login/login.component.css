@@ -1,0 +1,15 @@
+form{
+    
+  
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    
+    margin-top: 100px;
+}
+.btn-primary{
+    width: 100%;
+    border:none;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(37, 16, 225, 0.891), rgb(0, 255, 238));
+}
