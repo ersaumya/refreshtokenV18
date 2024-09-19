@@ -15,6 +15,9 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
     this.getUser();
+    this.userService.$refreshTokenRecieved.subscribe((res: any) => {
+      this.getUser();
+    });
   }
 
   getUser() {
